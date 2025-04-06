@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.HeaderVideo {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.InstructionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 424px;
+  height: 100%;
+  gap: 16px;
+}
+
+.InstructionHeader {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1%;
+  color: #272c36;
+}
+
+.InstructionParagraf {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 2%;
+  color: #484d58;
+}
+
+.paragrafVideo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 4%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.SpanVideo {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 2.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.SignUp {
+  width: 195px;
+  height: 48;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #0958d9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 3.5%;
+  color: #fff;
+  margin: 20px 0px 0px 0px;
+}
+
+.SignUp:hover {
+  background-color: #3e7ce1;
+  color: #fff;
+}
+
+.SignUp:active {
+  background-color: #0b49b0;
+  color: #fff;
+}
+
+.VideoSection {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 170px;
+  padding: 64px 120px 64px 120px;
+}
+
+.VideoUpLoadContainer {
+  width: 600px;
+  height: 366px;
+  border-radius: 16px;
+  gap: 16px;
+  padding-top: 64px;
+  padding-right: 72px;
+  padding-bottom: 86px;
+  padding-left: 72px;
+  background-color: #484d58;
+}
+
+.remove-video {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-video:hover {
+  background-color: #ff7875;
+}
+
+/* Media Queries */
+
+@media (max-width: 1440px) {
+  .displayFlex {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .header-heroSection,
+  .paragraf-heroSection {
+    width: 100%;
+  }
+
+  .VideoSection {
+    padding: 64px 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .paragrafVideo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 4%;
+    text-align: center;
+  }
+
+  .TextContainer {
+    padding: 30px;
+  }
+
+  .InstructionContainer {
+    padding: 30px;
+    width: 532px;
+  }
+
+  .InstructionParagraf {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .InstructionHeader {
+    text-align: center;
+  }
+
+  .InstructionContainer {
+    padding: 30px;
+    width: 532px;
+  }
+
+  .SignUpDisplay {
+    display: flex;
+    justify-content: center;
+  }
+
+  .VideoSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .VideoUpLoadContainer {
+    width: 100%;
+    height: 250px;
+    padding: 14px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .paragrafVideo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 4%;
+    text-align: center;
+  }
+
+  .InstructionContainer {
+    padding: 30px;
+    width: 532px;
+  }
+
+  .InstructionParagraf {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .InstructionHeader {
+    text-align: center;
+  }
+
+  .SignUpDisplay {
+    display: flex;
+    justify-content: center;
+  }
+
+  .VideoSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 50px;
+  }
+
+  .VideoUpLoadContainer {
+    width: 350px;
+    height: 250px;
+    padding: 14px;
+    gap: 8px;
+  }
+
+  .InstructionContainer {
+    width: 100%;
+  }
+}

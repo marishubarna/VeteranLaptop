@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.ChechBoxStyleIcon {
+  border-radius: 2px;
+}
+
+.ChechBoxStyleIcon:hover {
+  border-radius: 2px;
+  border: 2px solid #0958d9;
+}
+
+.checkbox-form {
+  display: flex;
+  place-items: center;
+  gap: 12px;
+}
+
+.buttonStylesNextStep {
+  width: 96px;
+  height: 40px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 136%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+/* .buttonStylesLink {
+} */
+
+.headerForm {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2%;
+  color: #272c36;
+}
+
+.formContainerDisplay {
+  display: flex;
+  justify-content: center;
+}
+
+.FormContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+  gap: 32px;
+}
+
+.imagesContainerForm {
+  width: 50%;
+}
+
+.InputStyles {
+  width: 502px;
+  height: 40px;
+  border-radius: 7px;
+  border-width: 1px;
+  padding: 4px 12px 4px 12px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+}
+
+.LabelInputsFormContainer {
+  color: #272c36;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 2%;
+}
+
+.LabelStyles {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 136%;
+  letter-spacing: 0%;
+  color: #484d58;
+}
+
+.NameContainer,
+.EmailContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and(min-width: 234px) and (max-width: 1040px) {
+  .formContainerDisplay {
+    margin: 0px;
+  }
+
+  .FormContainer {
+    width: 100%;
+    padding: 32px;
+  }
+
+  .imagesContainerForm {
+    display: none;
+  }
+
+  .FormContainer {
+    padding: 64px 20px 64px 20px;
+    background-color: #fafafa;
+  }
+
+  .InputStyles {
+    width: 311px;
+  }
+}
+@media screen and (min-width: 1040px) and (max-width: 1440px) {
+  .formContainerDisplay {
+    margin: 0px;
+  }
+
+  .FormContainer {
+    width: 100%;
+    padding: 32px;
+  }
+
+  .imagesContainerForm {
+    display: none;
+  }
+
+  .FormContainer {
+    padding: 64px 100px 64px 330px;
+    background-color: #fafafa;
+  }
+
+  .InputStyles {
+    width: 311px;
+  }
+}
